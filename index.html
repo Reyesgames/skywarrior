@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sky Warrior</title>
+    <meta name="viewport" content="initial-scale=1.5, maximum-scale=1.5, minimum-scale=1.0, width=device-width, user-scalable=no, minimal-ui">
+    <meta name="HandheldFriendly" content="True">
+    <!-- <meta name="MobileOptimized" content="320"> -->
+    <meta http-equiv="cleartype" content="on">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="yes" />
+    
+    <style>
+        html,
+        body {
+            float: left;
+            position: absolute;
+            /* display: flex; */
+            flex-direction: column;
+            margin: 0px !important;
+            padding: 0px !important;
+            overflow: hidden;
+            touch-action: none;
+            background-color: #000;
+            width: 100%;
+            height: 100%;
+            /* The image used */
+            /* background-image: url("assets/img/some_background.jpg"); */
+            /* Center and scale the image nicely */
+            /* background-position: center; */
+            /* background-repeat: no-repeat; */
+            /* background-size: cover; */
+        }
+    </style>
+</head>
+
+<body>
+    
+    <!-- <script type="text/javascript" src="lib/phaser.js"></script> -->
+    <script type="text/javascript" src="lib/phaser.min.js"></script>
+    <script type="text/javascript" src="lib/dragonBones.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <div id="gameArea">
+        <!-- <canvas id="gameCanvas"></canvas> -->
+    </div>
+    <script type="text/javascript" src="vendors.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
